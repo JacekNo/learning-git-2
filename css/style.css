@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.container {
+    max-width: 400px;
+    margin: 60px auto;
+}
+p {
+    margin: 0 0 1.5em 0;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.author {
+    font-size: 18px;
+    font-style: italic;
+}
+.text {
+    text-align: center;
+}
+span {
+    font-weight: bold;
+}

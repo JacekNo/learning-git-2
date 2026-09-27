@@ -1,0 +1,33 @@
+npm install --save-dev html-validate
+{
+  "extends": ["html-validate:recommended"]
+}
+
+
+jacek@Jacek MINGW64 ~/Documents/Kodilla/learning-git-2 (main)
+$ npm exec html-validate index.html
+
+C:\Users\jacek\Documents\Kodilla\learning-git-2\index.html
+   1:2   error  Element "DOCTYPE" should be lowercase                                    element-case
+   1:2   error  <DOCTYPE> is not a valid element name                                    element-name
+   1:9   error  No space between attributes                                              attr-spacing
+   4:29  error  Expected omitted end tag <meta> instead of self-closing element <meta/>  void-style
+   6:51  error  Expected omitted end tag <link> instead of self-closing element <link/>  void-style
+  45:10  error  No space between attributes                                              attr-spacing
+  45:10  error  Close tags cannot have attributes                                        close-attr
+
+✖ 7 problems (7 errors, 0 warnings)
+
+More information:
+  https://html-validate.org/rules/element-case.html
+  https://html-validate.org/rules/element-name.html
+  https://html-validate.org/rules/attr-spacing.html
+  https://html-validate.org/rules/void-style.html
+  https://html-validate.org/rules/close-attr.html
+
+
+jacek@Jacek MINGW64 ~/Documents/Kodilla/learning-git-2 (main)
+$ npm exec html-validate index.html
+
+jacek@Jacek MINGW64 ~/Documents/Kodilla/learning-git-2 (main)
+$
